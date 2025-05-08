@@ -63,7 +63,8 @@ form.addEventListener("submit", (e) => {
     };
     console.log(formData);
   }
-  [phoneInput, emailError].forEach((input) => {
+   let deleteErrorMsg = [phoneInput, emailError]
+    deleteErrorMsg.forEach((input) => {
     input.addEventListener("input", (e) => {
       e.textContent = "";
     });
