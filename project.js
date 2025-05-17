@@ -47,7 +47,7 @@ form.addEventListener("submit", (e) => {
   let phoneValidate = /^\d{11}$/;
 
   if (!phoneValidate.test(phone)) {
-    phoneError.textContent = "Phone Must be 10 digits";
+    phoneError.textContent = "Phone Must be 11 digits";
     isValid = false;
   }
 
